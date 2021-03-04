@@ -1,9 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
+
 function Header() {
   return (
-    <h1>Header</h1>
+    <div>
+      <img src={logo} className="App-logo" alt="logo" />
+
+      <h1>To Do</h1>
+      <button type="button">Sing up</button>
+    </div>
   );
 }
 
